@@ -26,7 +26,7 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[190px]">
           <img
             src={image}
             alt="project_image"
@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Meu trabalho.</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projetos.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projetos:</h2>
       </motion.div>
 
       <div className="w-full flex">

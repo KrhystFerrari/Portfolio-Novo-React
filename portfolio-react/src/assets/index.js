@@ -28,7 +28,7 @@ import sifat from "./company/sifat.jpg";
 
 import dinamometro from "./dinamometro.png";
 import responsividade from "./responsividade-dicas.png";
-import movie from "./movie.png";
+import bun from "./bun.webp";
 
 export {
   logo,
@@ -58,5 +58,5 @@ export {
   perfil,
   dinamometro,
   responsividade,
-  movie,
+  bun,
 };

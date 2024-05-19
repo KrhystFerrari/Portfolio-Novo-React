@@ -21,7 +21,7 @@ import {
   sifat,
   dinamometro,
   responsividade,
-  movie,
+  bun,
   mui,
 } from "../assets";
 
@@ -207,25 +207,25 @@ const projects = [
     source_code_link: "https://github.com/KrhystFerrari/Responsividade-Dicas",
   },
   {
-    name: "MovieWiki",
+    name: "Backend Bun/Elysia/Prisma e Clean-Arch",
     description:
-      "Projeto com React, consumindo a API do TMDB (filmes), utilizando hooks e React Router, criado com Vite.",
+      "Backend construido com as novas tecnologias Bun e Elysia utilizando arquitetura limpa e Prisma.",
     tags: [
       {
-        name: "react",
+        name: "Bun",
         color: "blue-text-gradient",
       },
       {
-        name: "Vite",
+        name: "Elysia",
         color: "green-text-gradient",
       },
       {
-        name: "react-router",
+        name: "Prisma ORM",
         color: "pink-text-gradient",
       },
     ],
-    image: movie,
-    source_code_link: "https://github.com/KrhystFerrari/movie_wiki",
+    image: bun,
+    source_code_link: "https://github.com/KrhystFerrari/Backend-Bun-Elysia-Prisma-Clean-Arch",
   },
 ];
 
