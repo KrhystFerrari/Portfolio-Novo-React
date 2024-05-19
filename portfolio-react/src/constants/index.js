@@ -121,7 +121,7 @@ const experiences = [
     company_name: "Pegasus Pro",
     icon: Pegasus,
     iconBg: "#E6DEDD",
-    date: "Setembro 2018 - Junho 2021",
+    date: "Setembro 2017 - Junho 2020",
     points: [
       "Desenvolvimento e manutenção de aplicações web utilizando HTML, CSS, JavaScript e outras tecnologias relacionadas.",
       "Desenvolvimento e manutenção do software do dinamômetro Pegasus Pro em linguagem C junto ao micro-controlador ESP-32 da Espressif.",
@@ -133,7 +133,7 @@ const experiences = [
     company_name: "IIItek Technology",
     icon: iiitek,
     iconBg: "#383E56",
-    date: "Junho 2021 - Março 2024",
+    date: "Junho 2020 - Março 2024",
     points: [
       "Desenvolvimento e manutenção de aplicações web usando React.js, Next.js e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
