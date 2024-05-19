@@ -24,6 +24,7 @@ import mui from "./tech/mui.png"
 import Pegasus from "./company/Pegasus.png";
 import perfil from "./company/perfil.png";
 import iiitek from "./company/iiitek.png";
+import sifat from "./company/sifat.jpg";
 
 import dinamometro from "./dinamometro.png";
 import responsividade from "./responsividade-dicas.png";
@@ -52,6 +53,7 @@ export {
   typescript,
   mui,
   iiitek,
+  sifat,
   Pegasus,
   perfil,
   dinamometro,

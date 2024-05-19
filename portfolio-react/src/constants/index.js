@@ -18,6 +18,7 @@ import {
   Pegasus,
   perfil,
   iiitek,
+  sifat,
   dinamometro,
   responsividade,
   movie,
@@ -41,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Desenvolvedor Front-end",
+    title: "Engenheiro de Software",
     icon: web,
   },
   {
-    title: "Desenvolvedor Back-end",
+    title: "Arquiteto de Software",
     icon: backend,
   },
   {
@@ -53,7 +54,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Desenvolvedor IoT",
+    title: "Head de Tecnologia",
     icon: creator,
   },
 ];
@@ -114,23 +115,13 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Desenvolvedor Web",
-    company_name: "Freelance",
-    icon: perfil,
-    iconBg: "#383E56",
-    date: "Maio 2019 - Julho 2022",
-    points: [
-      "Desenvolvimento e manutenção de aplicações web utilizando HTML, CSS, JavaScript e outras tecnologias relacionadas.",
-      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
-    ],
-  },
+  
   {
     title: "Desenvolvedor Web/IoT",
     company_name: "Pegasus Pro",
     icon: Pegasus,
     iconBg: "#E6DEDD",
-    date: "Setembro 2022 - Junho 2023",
+    date: "Setembro 2018 - Junho 2021",
     points: [
       "Desenvolvimento e manutenção de aplicações web utilizando HTML, CSS, JavaScript e outras tecnologias relacionadas.",
       "Desenvolvimento e manutenção do software do dinamômetro Pegasus Pro em linguagem C junto ao micro-controlador ESP-32 da Espressif.",
@@ -138,17 +129,33 @@ const experiences = [
     ],
   },
   {
-    title: "Desenvolvedor Full Stack",
+    title: "Engenheiro de Software/Head de Tecnologia",
     company_name: "IIItek Technology",
     icon: iiitek,
     iconBg: "#383E56",
-    date: "Jun 2023 - Até o momento",
+    date: "Junho 2021 - Março 2024",
     points: [
       "Desenvolvimento e manutenção de aplicações web usando React.js, Next.js e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
-      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+      "Gestão das equipes de desenvolvimento.",
       "Participar de revisões de código e fornecer feedback construtivo a outros desenvolvedores.",
     ],
+  },
+  {
+    title: "Coordenador de Desenvolvimento",
+    company_name: "Grupo Sifat",
+    icon: sifat,
+    iconBg: "#383E56",
+    date: "Março 2024 - Até o momento",
+    points: [
+      "Desenvolvimento e manutenção de aplicações web usando React.js no frontend e Java no backend.",
+      "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores, para criar produtos de alta qualidade.",
+      "Gestão e coordenação das equipes de desenvolvimento, garantindo a entrega dentro dos prazos e conforme os padrões de qualidade.",
+      "Participar de revisões de código e fornecer feedback construtivo a outros desenvolvedores.",
+      "Supervisão e otimização de soluções de automação comercial, incluindo sistemas de PDV, ERP e CRM.",
+      "Identificação e implementação de melhorias em processos e sistemas para aumentar a eficiência e escalabilidade.",
+      "Treinamento e mentoria de desenvolvedores, promovendo a adoção de melhores práticas e o desenvolvimento contínuo da equipe."
+    ],    
   },
 ];
 

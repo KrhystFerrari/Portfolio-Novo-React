@@ -47,24 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Olá, me chamo Krhystofferson Ferrari, tenho 31 anos e sou Desenvolvedor
-        Full Stack. Nascido em 1992 na cidade de São José do Rio Preto - SP,
-        tive uma infância humilde, porém nunca me faltou nada, especialmente
-        princípios e educação. Ganhei meu primeiro computador aos 11 anos, e foi
-        amor à primeira vista. Depois de algum tempo, já era o "menino que
-        ajeitava os PCs" da rua. Trabalho desde os 12 anos, e pode-se dizer que
-        já fiz de tudo um pouco, desde auxiliar de funilaria até metalúrgico.
-        Aos 18 anos, tive a primeira experiência com programação, me tornando
-        Operador de Dobradeira CNC especializado, e trabalhei na área até
-        fevereiro de 2022. Estudo programação, de fato, desde 2017. Porém,
-        devido a certos contratempos, foi necessário dar algumas pausas nos
-        estudos. Voltei a estudar em 2019 e, desde então, comecei minha
-        transição de carreira para o que realmente amo fazer: trabalhar com
-        tecnologia. Possuo experiência em TypeScript e JavaScript e também em
-        estruturas como React.js, Node.js e Next.js. Aprendo rápido e colaboro
-        de perto com os clientes para criar soluções eficientes, escaláveis ​​e
-        fáceis de usar que resolvem problemas do mundo real. Vamos trabalhar
-        juntos para dar vida às suas ideias!
+        Olá, me chamo Krhystofferson Ferrari, tenho 31 anos e sou Desenvolvedor Full Stack. Nascido em 1992 na cidade de São José do Rio Preto - SP, tive uma infância humilde, mas sempre com acesso a princípios e educação. Aos 11 anos, ganhei meu primeiro computador e, desde então, me apaixonei pela tecnologia, tornando-me o "menino que ajeitava os PCs" da vizinhança.
+
+Trabalho desde os 12 anos e já atuei em diversas áreas, desde auxiliar de funilaria até metalúrgico. Aos 18 anos, tive minha primeira experiência com programação, atuando como Operador de Dobradeira CNC especializado. Estudo programação desde 2015, com algumas pausas ao longo do caminho.
+
+Iniciei minha transição de carreira para tecnologia em 2017 e possuo experiência em TypeScript, JavaScript, React.js, Node.js e Next.js. Aprendo rápido e colaboro diretamente com os clientes para criar soluções eficientes, escaláveis e fáceis de usar, que resolvem problemas reais.
+
+Desde 2020, lidero equipes e atualmente sou Head de Tecnologia e Coordenador de Desenvolvimento. Vamos trabalhar juntos para dar vida às suas ideias!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
