@@ -143,7 +143,7 @@ const experiences = [
   },
   {
     title: "Coordenador de Desenvolvimento",
-    company_name: "Grupo Sifat",
+    company_name: "Grupo SIFAT",
     icon: sifat,
     iconBg: "#383E56",
     date: "Março 2024 - Até o momento",
