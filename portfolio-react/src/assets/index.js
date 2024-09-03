@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import mui from "./tech/mui.png"
+import mui from "./tech/mui.png";
 
 import Pegasus from "./company/Pegasus.png";
 import perfil from "./company/perfil.png";
@@ -27,6 +27,7 @@ import iiitek from "./company/iiitek.png";
 import sifat from "./company/sifat.jpg";
 
 import dinamometro from "./dinamometro.png";
+import waymenu from "./waymenu.jpg";
 import responsividade from "./responsividade-dicas.png";
 import bun from "./bun.webp";
 
@@ -57,6 +58,7 @@ export {
   Pegasus,
   perfil,
   dinamometro,
+  waymenu,
   responsividade,
   bun,
 };

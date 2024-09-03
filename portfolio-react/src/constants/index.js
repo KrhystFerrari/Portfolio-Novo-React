@@ -20,6 +20,7 @@ import {
   iiitek,
   sifat,
   dinamometro,
+  waymenu,
   responsividade,
   bun,
   mui,
@@ -115,7 +116,6 @@ const technologies = [
 ];
 
 const experiences = [
-  
   {
     title: "Desenvolvedor Web/IoT",
     company_name: "Pegasus Pro",
@@ -146,7 +146,7 @@ const experiences = [
     company_name: "Grupo SIFAT",
     icon: sifat,
     iconBg: "#383E56",
-    date: "Março 2024 - Até o momento",
+    date: "Março 2024 - Agosto 2024",
     points: [
       "Desenvolvimento e manutenção de aplicações web usando React.js no frontend e Java no backend.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores, para criar produtos de alta qualidade.",
@@ -154,16 +154,59 @@ const experiences = [
       "Participar de revisões de código e fornecer feedback construtivo a outros desenvolvedores.",
       "Supervisão e otimização de soluções de automação comercial, incluindo sistemas de PDV, ERP e CRM.",
       "Identificação e implementação de melhorias em processos e sistemas para aumentar a eficiência e escalabilidade.",
-      "Treinamento e mentoria de desenvolvedores, promovendo a adoção de melhores práticas e o desenvolvimento contínuo da equipe."
-    ],    
+      "Treinamento e mentoria de desenvolvedores, promovendo a adoção de melhores práticas e o desenvolvimento contínuo da equipe.",
+    ],
   },
 ];
 
 const projects = [
   {
+    name: "WayMenu",
+    description:
+      "Cardápio digital para restaurantes, desenvolvido com React.js, Material UI entre outros.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Material-UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: waymenu,
+    source_code_link: "https://sifat.com.br/waymenu/",
+  },
+  {
+    name: "Backend Bun e Clean-Arch",
+    description:
+      "Backend construido com a nova tecnologias Bun e utilizando arquitetura limpa e Prisma.",
+    tags: [
+      {
+        name: "Bun",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elysia",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma ORM",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bun,
+    source_code_link:
+      "https://github.com/KrhystFerrari/Backend-Bun-Elysia-Prisma-Clean-Arch",
+  },
+  {
     name: "Software Dinamômetro Pegasus Pro",
     description:
-      "Software do dinamômetro Pegasus Pro, desenvolvido com HTML, CSS, JavaScript e linguagem C.",
+      "Software do dinamômetro inercial Pegasus Pro, desenvolvido com HTML, CSS, JavaScript, linguagem C e Micro-controladora ESP32.",
     tags: [
       {
         name: "HTML",
@@ -184,48 +227,6 @@ const projects = [
     ],
     image: dinamometro,
     source_code_link: "https://home.pegasuspro.com.br/",
-  },
-  {
-    name: "Dicas de Responsividade",
-    description:
-      "Página web simples, desenvolvida com HTML, CSS e JavaScript. Com o objetivo de mostrar na prática a responsividade em sites e aplicativos web.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: responsividade,
-    source_code_link: "https://github.com/KrhystFerrari/Responsividade-Dicas",
-  },
-  {
-    name: "Backend Bun/Elysia/Prisma e Clean-Arch",
-    description:
-      "Backend construido com as novas tecnologias Bun e Elysia utilizando arquitetura limpa e Prisma.",
-    tags: [
-      {
-        name: "Bun",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Elysia",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Prisma ORM",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bun,
-    source_code_link: "https://github.com/KrhystFerrari/Backend-Bun-Elysia-Prisma-Clean-Arch",
   },
 ];
 
